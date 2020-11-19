@@ -1,0 +1,151 @@
+@font-face{
+    font-family: Montserrat Alternates;
+    src: url("../font/MontserratAlternates-Regular.ttf");
+}
+
+/*@font-face{
+    font-family: Montserrat;
+    src: url("../font/Montserrat-Regular.ttf");
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #000000;
+}
+
+.inheader{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.left{
+    height: 100%;
+    display: table;
+    float: left;
+    margin: auto;
+}
+
+.left .image{
+    height: 100%;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.left h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates';
+}
+
+.left .image img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav{
+    float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    font-family: 'Montserrat Alternates';
+}
+
+.nav a:last-child{
+    padding-right: 0;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+/*.content{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}*/
+
+.content .one{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.content .one img{
+    width: 300px;
+    height: 300px;
+}
+
+.content a{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Montserrat Alternates;
+}
+
+.content b{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Montserrat Alternates;
+}
+
+.footer{
+    margin-top: auto;
+    width: 100%;
+    height: 80px;
+}
+
+.footer .footer-one{
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding-top: auto;
+    padding-bottom: 0;
+    background-color: #000000;
+}
+
+.footer .footer-one a{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    margin-left:1%;   
+    margin-top:1%;
+}
+
+.footer .footer-one a img{
+    width: 50px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
